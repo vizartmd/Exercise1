@@ -23,6 +23,6 @@ public class Task1 {
         candles = new int[] {9, 62, 4, 12, 62, 62, 3, 12, 62, 12, 62, 62, 12, 62};
         Task1 task = new Task1();
         int res = task.birthdayCakeCandles(candles);
-        System.out.println(res);
+        System.out.println("The number of candles that are tallest = " + res);
     }
 }
