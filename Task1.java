@@ -1,6 +1,6 @@
 package main.java;
 
-public class Test1 {
+public class Task1 {
 
     public int birthdayCakeCandles(int[] arr) {
         int maxInt = 0;
@@ -20,9 +20,9 @@ public class Test1 {
 
     public static void main(String[] args) {
         int[] candles;
-        candles = new int[] {9, 62, 4, 12, 62, 62, 3, 12, 12, 62, 62, 12, 62};
-        Test1 test = new Test1();
-        int res = test.birthdayCakeCandles(candles);
+        candles = new int[] {9, 62, 4, 12, 62, 62, 3, 12, 62, 12, 62, 62, 12, 62};
+        Task1 task = new Task1();
+        int res = task.birthdayCakeCandles(candles);
         System.out.println(res);
     }
 }
